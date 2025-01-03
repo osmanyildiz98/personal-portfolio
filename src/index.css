@@ -23,6 +23,9 @@
   --footerButtonColor: #3730a3;
   --footerLinksColor: #3730a3;
   --emailColor: #af0c48;
+  --personalBlogColor: #0a0a14;
+  --githubColor: #00ab6b;
+  --linkedinColor: #0077b5;
 }
 
 .dark {
@@ -46,4 +49,7 @@
   --footerButtonColor: #8f88ff;
   --footerLinksColor: #e1e1ff;
   --emailColor: #bab2e7;
+  --personalBlogColor: #e1e1ff;
+  --githubColor: #17d18b;
+  --linkedinColor: #0ba6f6;
 }

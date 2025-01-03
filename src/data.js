@@ -87,8 +87,10 @@ const LanguagesData = {
     profile: {
       header: "Profil",
       aboutMe: "Hakkımda",
-      aboutMeDesc:
-        "akjdaskljdhasjkhdkjashgdjhasdghajsdgashjdgasjhdfasghdfasdghfasdashdfhjasdgjasghfdhagsfdas",
+      aboutMeDescOne:
+        "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+      aboutMeDescTwo:
+        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",
       infoArray: [
         { title: "Doğum Tarihi", value: "23.01.1998" },
         { title: "İkametgah Şehri", value: "Istanbul" },
@@ -107,7 +109,7 @@ const LanguagesData = {
       projectsArray: [
         {
           title: "Calculator",
-          desc: "description",
+          desc: "Bu proje, temel aritmetik işlemleri gerçekleştiren bir web tabanlı hesap makinesi uygulamasıdır. Kullanıcılar toplama, çıkarma, çarpma ve bölme işlemlerini kolayca yapabilir ve kullanıcı dostu arayüz sayesinde işlemler hızlı bir şekilde gerçekleştirilebilir.",
           github: "Github",
           view: "Görüntüle",
           githubLink: "https://github.com/osmanyildiz98/calculator-js",
@@ -117,7 +119,7 @@ const LanguagesData = {
         },
         {
           title: "Etch-A-Sketch",
-          desc: "description",
+          desc: "Bu proje, klasik Etch A Sketch oyuncağını dijital bir ortama taşıyan bir web uygulamasıdır. Kullanıcılar, fare hareketlerini kullanarak bir tuval üzerinde çizimler yapabilir, çizim boyutunu değiştirebilir ve istedikleri zaman tuvali temizleyebilir.",
           github: "Github",
           view: "Görüntüle",
           githubLink: "https://github.com/osmanyildiz98/etch-a-sketch",
@@ -127,7 +129,7 @@ const LanguagesData = {
         },
         {
           title: "Library",
-          desc: "description",
+          desc: "Bu proje, bir kütüphane yönetim sistemi uygulamasıdır. Kullanıcılar kitapları listeleyebilir, ekleyebilir, düzenleyebilir ve silebilir. Ayrıca, kitapların detaylarına göz atabilir ve arama yapabilirler.",
           github: "Github",
           view: "Görüntüle",
           githubLink: "https://github.com/osmanyildiz98/library",
@@ -144,11 +146,16 @@ const LanguagesData = {
       header: "Bir sonraki ürününüzde birlikte çalışalım.",
       email: "osmanyldzs@outlook.com",
       footerLinks: [
-        { title: "Kişisel Blog", link: "" },
-        { title: "Github", link: "https://github.com/OsmanYildiz98" },
+        { title: "Kişisel Blog", link: "", color: "text-personalBlogColor" },
+        {
+          title: "Github",
+          link: "https://github.com/OsmanYildiz98",
+          color: "text-githubColor",
+        },
         {
           title: "Linkedin",
           link: "https://www.linkedin.com/in/osmany%C4%B1ld%C4%B1z98/",
+          color: "text-linkedinColor",
         },
       ],
     },
@@ -228,8 +235,10 @@ const LanguagesData = {
     profile: {
       header: "Profile",
       aboutMe: "About Me",
-      aboutMeDesc:
-        "hjksdsaghjdsgadhjsafgdjgsafdhasfdsahjdfasdhasdashfjasfhashkfgsajhdfasjgasgjdfasdjhasfdjhas",
+      aboutMeDescOne:
+        "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+      aboutMeDescTwo:
+        "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",
       infoArray: [
         { title: "Birth Date", value: "23.01.1998" },
         { title: "Residence", value: "Istanbul" },
@@ -248,7 +257,7 @@ const LanguagesData = {
       projectsArray: [
         {
           title: "Calculator",
-          desc: "description",
+          desc: "This project is a web-based calculator application that performs basic arithmetic operations. Users can easily perform addition, subtraction, multiplication, and division, and thanks to its user-friendly interface, the operations can be completed quickly.",
           github: "Github",
           view: "View Site",
           githubLink: "https://github.com/osmanyildiz98/calculator-js",
@@ -258,7 +267,7 @@ const LanguagesData = {
         },
         {
           title: "Etch-A-Sketch",
-          desc: "description",
+          desc: "This project is a web application that brings the classic Etch A Sketch toy to the digital world. Users can draw on a canvas using mouse movements, adjust the grid size, and clear the canvas whenever they want.",
           github: "Github",
           view: "View Site",
           githubLink: "https://github.com/osmanyildiz98/etch-a-sketch",
@@ -268,7 +277,7 @@ const LanguagesData = {
         },
         {
           title: "Library",
-          desc: "description",
+          desc: "This project is a library management system application. Users can list, add, edit, and delete books. Additionally, they can view book details and search for books.",
           github: "Github",
           view: "View Site",
           githubLink: "https://github.com/osmanyildiz98/library",
@@ -285,11 +294,16 @@ const LanguagesData = {
       header: "Let's work together on your next product.",
       email: "osmanyldzs@outlook.com",
       footerLinks: [
-        { title: "Personal Blog", link: "" },
-        { title: "Github", link: "https://github.com/OsmanYildiz98" },
+        { title: "Personal Blog", link: "", color: "text-personalBlogColor" },
+        {
+          title: "Github",
+          link: "https://github.com/OsmanYildiz98",
+          color: "text-githubColor",
+        },
         {
           title: "Linkedin",
           link: "https://www.linkedin.com/in/osmany%C4%B1ld%C4%B1z98/",
+          color: "text-linkedinColor",
         },
       ],
     },

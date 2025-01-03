@@ -25,6 +25,9 @@ export default {
       footerButtonColor: "var(--footerButtonColor)",
       footerLinksColor: "var(--footerLinksColor)",
       emailColor: "var(--emailColor)",
+      personalBlogColor: "var(--personalBlogColor)",
+      githubColor: "var(--githubColor)",
+      linkedinColor: "var(--linkedinColor)",
       /* ---------------------------------------------------------------- */
       switcherButtonsColor: "#777777",
       navLinksBackgroundColor: "#ffffff",

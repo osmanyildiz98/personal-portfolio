@@ -12,24 +12,19 @@ function Hero() {
   return (
     <div className="w-full flex justify-between items-center phone:flex-col phone:gap-4 tablet:flex-col tablet:gap-6 desktop:w-5/6">
       <div className="flex flex-col phone:gap-4 phone:w-[350px] tablet:gap-4 tablet:w-[450px] desktop:gap-6 desktop:w-1/2">
-        <div className="flex items-center phone:gap-2 tablet:gap-4 desktop:gap-6">
+        <div className="flex items-center gap-2">
           <img
-            className="w-20 h-1"
+            className="w-24 h-[1px]"
             src={
               theme === "dark"
                 ? data[language].hero.strokeDark
                 : data[language].hero.strokeLight
             }
           />
-          <h3 style={{ color: theme === "dark" ? "#b7aaff" : "#4338ca" }}>
-            {data[language].hero.name}
-          </h3>
+          <h3 className="text-headersColor">{data[language].hero.name}</h3>
         </div>
         <div>
-          <h1
-            style={{ color: theme === "dark" ? "#aebccf" : "#1F2937" }}
-            className="font-bold phone:text-5xl tablet:text-6xl desktop:text-7xl"
-          >
+          <h1 className="text-mainHeadersColor font-bold phone:text-5xl tablet:text-6xl desktop:text-7xl">
             {data[language].hero.headerOne}
           </h1>
           <h1

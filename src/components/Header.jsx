@@ -10,7 +10,10 @@ function Header() {
   return (
     <header className="w-full flex flex-col gap-4 phone:p-2 phone:text-[.6rem] tablet:p-2 tablet:text-[.8rem] desktop:w-5/6 desktop:p-4">
       <div className="flex self-end phone:gap-2 desktop:gap-4">
-        <button className="flex items-center gap-2" onClick={handleThemeChange}>
+        <button
+          className="flex items-center gap-2 text-themeBtnColor"
+          onClick={handleThemeChange}
+        >
           <img
             className="phone:w-6 tablet:w-8 desktop:w-10"
             src={
@@ -24,8 +27,27 @@ function Header() {
         </button>
         <p>|</p>
         <button onClick={handleLanguageChange}>
-          <span>{data[language].header.languageBtn}</span>
-          {data[language].header.languageSwitch}
+          {language === "tr" ? (
+            <span className="text-switcherButtonsColor">
+              {data[language].header.languageSwitch}
+            </span>
+          ) : (
+            <span className="text-languageBtnColor">
+              {data[language].header.languageBtn}
+            </span>
+          )}
+
+          <span>
+            {language === "tr" ? (
+              <span className="text-languageBtnColor">
+                {data[language].header.languageBtn}
+              </span>
+            ) : (
+              <span className="text-switcherButtonsColor">
+                {data[language].header.languageSwitch}
+              </span>
+            )}
+          </span>
         </button>
       </div>
       <div className="flex justify-between items-center ">
@@ -36,7 +58,7 @@ function Header() {
           {data[language].header.navArray.map((item, index) => {
             return (
               <a
-                className="border border-[#fff] bg-navLinksBackgroundColor text-navLinksColor phone:p-1 phone:rounded-sm tablet:p-2 tablet:rounded-md desktop:p-3 desktop:rounded-md hover:border-navLinksBorderColor hover:border hover:text-navLinksHoverColor"
+                className="border border-navLinksBorderColor bg-navLinksBackgroundColor text-navLinksColor phone:p-1 phone:rounded-sm tablet:p-2 tablet:rounded-md desktop:p-3 desktop:rounded-md hover:border-navLinksHoverColor hover:border hover:bg-[#fff] hover:text-navLinksHoverColor"
                 key={index}
                 href={item.link}
               >

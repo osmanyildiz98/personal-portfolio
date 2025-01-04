@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      Inter: ["Inter", "Sans-serif"],
+    },
     colors: {
       /* ---------------------------DARK&LIGHT------------------------- */
       bodyBackgroundColor: "var(--bodyBackgroundColor)",
@@ -11,6 +14,8 @@ export default {
       languageBtnColor: "var(--languageBtnColor)",
       logoBackgroundColor: "var(--logoBackgroundColor)",
       logoColor: "var(--logoColor)",
+      navLinksBackgroundColor: "var(--navLinksBackgroundColor)",
+      navLinksBorderColor: "var(--navLinksBorderColor)",
       buttonBackgroundColor: "var(--buttonBackgroundColor)",
       buttonHoverBackgroundColor: "var(--buttonHoverBackgroundColor)",
       buttonBorderColor: "var(--buttonBorderColor)",
@@ -18,6 +23,7 @@ export default {
       buttonHoverColor: "var(--buttonHoverColor)",
       mainHeadersColor: "var(--mainHeadersColor)",
       headersColor: "var(--headersColor)",
+      projectsHeadersColor: "var(--projectsHeadersColor)",
       userInfosColor: "var(--userInfosColor)",
       paragraphsColor: "var(--paragraphsColor)",
       footerButtonBackgroundColor: "var(--footerButtonBackgroundColor)",
@@ -30,8 +36,6 @@ export default {
       linkedinColor: "var(--linkedinColor)",
       /* ---------------------------------------------------------------- */
       switcherButtonsColor: "#777777",
-      navLinksBackgroundColor: "#ffffff",
-      navLinksBorderColor: "#3730a3",
       navLinksColor: "#6b7280",
       navLinksHoverColor: "#3730a3",
     },

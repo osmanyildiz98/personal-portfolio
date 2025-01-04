@@ -4,7 +4,7 @@ function Project({ project }) {
   return (
     <div className="flex flex-col gap-5">
       <img className="w-[350px]" src={project.image} alt="Image of Project" />
-      <h3 className="text-2xl text-headersColor">{project.title}</h3>
+      <h3 className="text-2xl text-projectsHeadersColor">{project.title}</h3>
       <p className="w-[350px] h-[150px] text-paragraphsColor break-words">
         {project.desc}
       </p>

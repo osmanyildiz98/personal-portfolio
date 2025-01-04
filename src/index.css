@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 .light {
   --bodyBackgroundColor: #ffffff;
@@ -9,6 +10,8 @@
   --languageBtnColor: #4731d3;
   --logoBackgroundColor: #eeebff;
   --logoColor: #7b61ff;
+  --navLinksBackgroundColor: #ffffff;
+  --navLinksBorderColor: #ffffff;
   --buttonBackgroundColor: #ffffff;
   --buttonHoverBackgroundColor: #3730a3;
   --buttonBorderColor: #3730a3;
@@ -16,6 +19,7 @@
   --buttonHoverColor: #ffffff;
   --mainHeadersColor: #1f2937;
   --headersColor: #4338ca;
+  --projectsHeadersColor: #4338ca;
   --userInfosColor: #000000;
   --paragraphsColor: #6b7280;
   --footerButtonBackgroundColor: #ffffff;
@@ -35,6 +39,8 @@
   --languageBtnColor: #bab2e7;
   --logoBackgroundColor: #4731d3;
   --logoColor: #8f88ff;
+  --navLinksBackgroundColor: #252128;
+  --navLinksBorderColor: #252128;
   --buttonBackgroundColor: #383838;
   --buttonHoverBackgroundColor: #e1e1ff;
   --buttonBorderColor: #e1e1ff;
@@ -42,6 +48,7 @@
   --buttonHoverColor: #000000;
   --mainHeadersColor: #aebccf;
   --headersColor: #b7aaff;
+  --projectsHeadersColor: #cfcbff;
   --userInfosColor: #ffffff;
   --paragraphsColor: #ffffff;
   --footerButtonBackgroundColor: #383838;

@@ -6,7 +6,7 @@ import Project from "./Project";
 function Projects() {
   const { language } = useContext(LanguageContext);
   return (
-    <div className="flex flex-col gap-20 desktop:w-5/6 tablet:w-[450px] phone:w-[350px]">
+    <div className="flex flex-col  gap-20 desktop:w-5/6 tablet:w-[450px] phone:w-[350px]">
       <h2 className="text-mainHeadersColor font-semibold phone:text-3xl tablet:text-4xl desktop:text-5xl">
         {data[language].project.header}
       </h2>

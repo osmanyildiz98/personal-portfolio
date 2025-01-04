@@ -12,7 +12,7 @@ function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <main className="flex flex-col gap-20 items-center justify-center bg-bodyBackgroundColor phone:gap-10">
+        <main className="flex flex-col gap-20 items-center justify-center bg-bodyBackgroundColor phone:gap-10 font-Inter">
           <Header />
           <Hero />
           <Skills />

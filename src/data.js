@@ -22,7 +22,7 @@ const LanguagesData = {
       themeBtnLightIcon: themeBtnLight,
       themeBtnDarkIcon: themeBtnDark,
       languageBtn: "ENGLISH",
-      languageSwitch: "TO",
+      languageSwitch: "SWITCH TO ",
       navArray: [
         { title: "Yetenekler", link: "#skills" },
         { title: "Projeler", link: "#projects" },

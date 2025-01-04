@@ -12,10 +12,21 @@ function Footer() {
           {data[language].footer.header}
         </h1>
         <div className="flex phone:flex-col phone:gap-5 desktop:justify-between">
-          <a href="mailto:example@example.com">{data[language].footer.email}</a>
+          <a
+            className="text-emailColor"
+            target="_blank"
+            href="mailto:example@example.com"
+          >
+            {data[language].footer.email}
+          </a>
           <div className="flex gap-10">
             {data[language].footer.footerLinks.map((link, index) => (
-              <a className={link.color} key={index} href={link.link}>
+              <a
+                className={link.color}
+                key={index}
+                target="_blank"
+                href={link.link}
+              >
                 {link.title}
               </a>
             ))}

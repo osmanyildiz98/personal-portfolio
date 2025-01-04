@@ -42,12 +42,14 @@ function Hero() {
         </p>
         <div className="flex phone:gap-2 tablet:gap-4 desktop:gap-6">
           <a
+            target="_blank"
             href={data[language].hero.hireMeLink}
             className="w-32 flex items-center justify-center bg-buttonBackgroundColor border border-buttonBorderColor text-buttonColor font-medium hover:bg-buttonHoverBackgroundColor hover:text-buttonHoverColor phone:p-1 phone:rounded-md phone:text-md tablet:p-2 tablet:rounded-lg tablet:text-lg desktop:p-3 desktop:rounded-lg desktop:text-xl"
           >
             {data[language].hero.hireMe}
           </a>
           <a
+            target="_blank"
             href="https://github.com/OsmanYildiz98"
             className="w-32 gap-2 flex items-center justify-center bg-buttonBackgroundColor border border-buttonBorderColor text-buttonColor font-medium hover:bg-buttonHoverBackgroundColor hover:text-buttonHoverColor phone:p-1 phone:rounded-md phone:text-md tablet:p-2 tablet:rounded-lg tablet:text-lg desktop:p-3 desktop:rounded-lg desktop:text-xl"
           >
@@ -55,6 +57,7 @@ function Hero() {
             Github
           </a>
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/osmany%C4%B1ld%C4%B1z98/"
             className="w-32 gap-2 flex items-center justify-center bg-buttonBackgroundColor border border-buttonBorderColor text-buttonColor font-medium hover:bg-buttonHoverBackgroundColor hover:text-buttonHoverColor phone:p-1 phone:rounded-md phone:text-md tablet:p-2 tablet:rounded-lg tablet:text-lg desktop:p-3 desktop:rounded-lg desktop:text-xl"
           >

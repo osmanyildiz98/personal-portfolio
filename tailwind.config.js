@@ -36,8 +36,8 @@ export default {
       navLinksHoverColor: "#3730a3",
     },
     screens: {
-      phone: { max: "400px" },
-      tablet: { min: "401px", max: "1024px" },
+      phone: { max: "500px" },
+      tablet: { min: "501px", max: "1024px" },
       desktop: { min: "1024px" },
     },
   },

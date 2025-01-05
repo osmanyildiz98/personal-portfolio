@@ -24,8 +24,8 @@ const LanguagesData = {
       languageBtn: "ENGLISH",
       languageSwitch: "SWITCH TO ",
       navArray: [
-        { title: "Yetenekler", link: "#skills" },
-        { title: "Projeler", link: "#projects" },
+        { title: "Yetenekler", link: "/#skills" },
+        { title: "Projeler", link: "/#projects" },
         { title: "Beni İşe Al", link: "" },
       ],
     },

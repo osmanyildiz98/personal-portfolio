@@ -1,12 +1,17 @@
-import React, { useContext } from "react";
-import data from "../data.js";
+import React, { useContext, useEffect } from "react";
+import { HashLink } from "react-router-hash-link";
 import { LanguageContext } from "../context/LanguageContext";
 import { ThemeContext } from "../context/ThemeContext";
+import data from "../data.js";
 
 function Header() {
   const { theme, handleThemeChange } = useContext(ThemeContext);
   const { language, handleLanguageChange } = useContext(LanguageContext);
 
+  useEffect(() => {
+    const body = document.querySelector("body");
+    body.classList.add(theme);
+  }, []);
   return (
     <header className="w-full flex flex-col gap-4 phone:p-2 phone:text-[.6rem] tablet:p-2 tablet:text-[.8rem] desktop:w-5/6 desktop:p-4">
       <div className="flex self-end phone:gap-2 desktop:gap-4">
@@ -57,13 +62,14 @@ function Header() {
         <nav className="flex desktop:gap-12 tablet:gap-8 phone:gap-4">
           {data[language].header.navArray.map((item, index) => {
             return (
-              <a
+              <HashLink
+                smooth
                 className="border border-navLinksBorderColor bg-navLinksBackgroundColor text-navLinksColor phone:p-1 phone:rounded-sm tablet:p-2 tablet:rounded-md desktop:p-3 desktop:rounded-md hover:border-navLinksHoverColor hover:border hover:bg-[#fff] hover:text-navLinksHoverColor"
                 key={index}
-                href={item.link}
+                to={item.link}
               >
                 {item.title}
-              </a>
+              </HashLink>
             );
           })}
         </nav>
